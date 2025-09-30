@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="navbar-brand">
+            <img src="./Image/Contemporary Wordmark Coffee Logo.png" alt="">
+            <span>BEAN BOUTIQUE</span>
+        </div>
+
+        <!-- nav-icon -->
+        <input type="checkbox" id="menu-checkbox">
+        <label for="menu-checkbox" class="menu-toggle">
+            <i class="bi bi-list"></i>
+        </label>
+
+        <!-- nav links -->
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="equip.html">Equipment</a></li>
+            <li><a href="events.html" class="active">Events</a></li>
+            <li><a href="cart.html">Shopping Cart</a></li>
+            <li><a href="offers.html">Special Offers</a></li>
+        </ul>
+    </nav>
+    <!-- navbar -->
+    <!-- Event header -->
+     <div class="eve-slide">
+        <div class="eve-slide-text">
+            <h1 class="event-header">Events & Workshops</h1>
+            <p class="event-text">Join us for exciting coffee experiences, learn new brewing techniques, and connect
+                with fellow coffee
+                enthusiasts.</p>
+                <a href="#events" class="btn btn-eq">Explore Events</a>
+        </div>
+     </div>
+    <!-- Event header -->
+
+    <!-- events section -->
+    <div class="events-container" id="events">
+        <div class="event-card">
+            <img src="./Image/Coffee Tasting Session.jpeg" alt="Coffee Tasting">
+            <div class="event-content">
+                <h3>Coffee Tasting Session</h3>
+                <p>Discover unique flavors with a guided tasting experience.</p>
+                <p class="event-date">October 5, 2025</p>
+                <a href="#reg-form" class="btn btn-event">Register Now</a>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <img src="./Image/Brewing Class.jpg" alt="Brewing Class">
+            <div class="event-content">
+                <h3>Brewing Class</h3>
+                <p>Learn pour-over, French press, and espresso techniques.</p>
+                <p class="event-date">October 12, 2025</p>
+                <a href="#reg-form" class="btn btn-event">Register Now</a>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <img src="./Image/Meet the Roaster.jpg" alt="Meet the Roaster">
+            <div class="event-content">
+                <h3>Meet The Roaster</h3>
+                <p>Hear roasting stories and taste freshly roasted beans.</p>
+                <p class="event-date">October 20, 2025</p>
+                <a href="#reg-form" class="btn btn-event">Register Now</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- events section -->
+
+
+    <section>
+        <div class="container form-container">
+            <!-- Registration form -->
+            <div class="card">
+                <h2 class="form-ttl" id="reg-form">Register For Our Event</h2>
+                <form id="regForm">
+                    <label for="name">Full Name</label>
+                    <input id="name" type="text" required placeholder="Enter Your Name">
+
+                    <label for="email">Email</label>
+                    <input id="email" type="email" required placeholder="you@gmail.com">
+
+                    <label for="eventSelect">Choose Event</label>
+                    <select id="eventSelect" required>
+                        <option value="">-- Select an event --</option>
+                        <option>Coffee Tasting Session — Oct 5, 2025</option>
+                        <option>Brewing Class — Oct 12, 2025</option>
+                        <option>Meet the Roaster — Oct 20, 2025</option>
+                    </select>
+
+                    <label for="notes">Notes (Optional)</label>
+                    <textarea id="notes" rows="3" placeholder="Additional information (optional)"></textarea>
+
+                    <div>
+                        <button class="reg-btn" type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Map -->
+            <div class="card">
+                <h2>Find Us — Map</h2>
+                <div class="map-frame">
+                    <iframe title="Coffee Shop location" width="100%" height="100%"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.0043172855003!2d96.12772877367466!3d16.82614191873377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194ca13fff6e3%3A0x1334ced7a53c5bbc!2sHledan%20Centre!5e0!3m2!1sen!2smm!4v1756458259219!5m2!1sen!2smm"
+                        style="border:0" allowfullscreen loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="ftbgcolor">
+        <div class="container">
+            <div class="row">
+                <div class="col4">
+                    <h4>BEAN BOUTIQUE</h4>
+                    <p>At Bean Boutique coffee shop, the aroma of fresh brews filled the air. Students studied, artists
+                        sketched, friends laughed, and baristas crafted cups of joy, creating warmth and unforgettable
+                        connections daily.
+                    </p>
+                </div>
+                <div class="col4">
+                    <h4>Quick Links</h4>
+                    <div class="link">
+                        <a href="index.html" class="ftlink">Home</a>
+                        <a href="products.html" class="ftlink">Products</a>
+                        <a href="equip.html" class="ftlink">Equipment</a>
+                        <a href="events.html" class="ftlink">Events</a>
+                        <a href="cart.html" class="ftlink">Cart</a>
+                        <a href="offers.html" class="ftlink">Offers</a>
+                    </div>
+                </div>
+                <div class="col4">
+                    <h4>Contact Information</h4>
+                    <p>No.12, Hledan St, Yangon</p>
+                    <p>09 12345678</p>
+                    <p>beanboutique7@gmail.com</p>
+                </div>
+                <div class="col4">
+                    <h4>Follow Us</h4>
+                    <i class="bi bi-facebook fticons"></i>
+                    <i class="bi bi-instagram fticons"></i>
+                    <i class="bi bi-twitter fticons"></i>
+                    <i class="bi bi-linkedin fticons"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Register -->
+    <script>
+        let regForm = document.getElementById("regForm")
+        regForm.addEventListener("submit", function (e) {
+            e.preventDefault()
+            let name = document.getElementById("name").value
+            let email = document.getElementById("email").value
+            let eventSelect = document.getElementById("eventSelect").value
+            alert(`✅ Registration successful!
+Name : ${name}
+Email : ${email}
+Event : ${eventSelect}`)
+            regForm.reset()
+        })
+    </script>
+
+    <!-- Register -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
